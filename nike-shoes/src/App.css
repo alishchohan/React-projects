@@ -27,6 +27,16 @@ nav ul {
   gap: 24px;
   list-style: none;
 }
+nav ul li{
+  transition: all ease-in-out 0.2s;
+}
+nav ul li:hover{
+  color: #d01c28;
+  border-bottom: 2px solid #d01c28;
+  margin-bottom: -2px;
+  border-radius: 3px;
+
+}
 button {
   all: unset;
   padding: 6px 16px;
@@ -50,8 +60,32 @@ button {
     letter-spacing: -3px;
 }
 .Hero p{
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 22px;
     margin-bottom: 20px;
+}
+.sec-btn{
+  background: white;
+  color: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  margin: 18px;
+
+  transition: all ease-in-out 0.2s;
+}
+.sec-btn:hover{
+background-color: #d01c28;
+color: white;
+border: 2px solid white ;
+}
+.amazon{
+margin-right: 10px;
+}
+.buy-btn{
+  transition: all ease-in-out 0.2s;
+}
+.buy-btn:hover{
+  border: 2px solid #d01c28;
+  color: #d01c28;
+  background-color: white;
 }

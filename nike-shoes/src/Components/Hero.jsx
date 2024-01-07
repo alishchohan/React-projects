@@ -12,14 +12,13 @@ function Hero() {
           your feet deserve the best and we're here to help you with our shoes
         </p>
         <div className="hero-btn">
-          <button>Shop Now!</button>
-          <button>Category</button>
-          <p cla>available on</p>
+          <button className="buy-btn">Shop Now!</button>
+          <button className="sec-btn">Category</button>
         </div>
         <div className="shopping">
           <p>Also Available On</p>
           <div className="brand-icons">
-            <img src={amazon} alt="amazon logo image" />
+            <img src={amazon} alt="amazon logo image" className="amazon" />
             <img src={flipcart} alt="flipcart logo image" />
           </div>
         </div>
